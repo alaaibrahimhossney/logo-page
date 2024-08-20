@@ -33,11 +33,11 @@ nav ul li a {
     text-decoration: none;
     color: #333;
 }
-
+/*banner style*/
 .banner {
-    display: flex; /* هذا السطر يضع النص والصورة بجانب بعضهما البعض */
-    justify-content: space-between; /* تأكد من ترك مسافة بين النص والصورة */
-    align-items: center; /* محاذاة العناصر عمودياً في المركز */
+    display: flex; 
+    justify-content: space-between; 
+    align-items: center; 
     background-color: #1d65a6;
     color: white;
     padding: 40px;
@@ -64,12 +64,12 @@ nav ul li a {
 }
 
 .text {
-    flex: 1; /* النص يأخذ المساحة المتاحة */
-    margin-right: 20px; /* مسافة بين النص والصورة */
+    flex: 1; 
+    margin-right: 20px; 
 }
 
 .image img {
-    max-width: 300px; /* التحكم في حجم الصورة */
+    max-width: 300px;
     height: auto;
 }
 
@@ -93,6 +93,6 @@ nav ul li a {
 }
 
 .about__image img {
-    max-width: 200px; /* التحكم في حجم الصورة */
+    max-width: 200px; 
     height: auto;
 }
